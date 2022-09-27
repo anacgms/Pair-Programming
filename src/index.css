@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Hurme1';
+    src: local('HurmeGeometricSans1-Light'),
+        url('./fonts/HurmeGeometricSans1-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Hurme2';
+    src: local('Hurme Geometric Sans No.1 SemiBold'),
+        url('./fonts/HurmeGeometricSans1-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }

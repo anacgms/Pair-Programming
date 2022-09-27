@@ -1,8 +1,10 @@
 import React from 'react'
-import * as S from './styles/MainStyle'
+import * as S from '../styles/MainStyle'
 
 export default function Main() {
   return (
-    <div>Main</div>
+    <>
+    Main
+    </>
   )
 }
