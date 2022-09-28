@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Torradeira from '../imagens/Torradeira.png'
+import Menu from '../imagens/menu.png'
 
 export const Container = styled.header`
     background-image: url(${Torradeira});
@@ -14,11 +15,21 @@ export const Container = styled.header`
     h1{
         font-family: 'Hurme2';
         text-transform: uppercase;
-        margin-top: 12rem;
+        margin-top: 10rem;
         font-size: 9em;
         color: #373737;
         letter-spacing: 15px;
     }
+
+    @media only screen and (min-width: 398px) and (max-width: 800px){
+        background-size: 50rem; 
+        background-position-y: top;
+        background-position-x: calc(100%);
+        h1{
+            font-size: 2.5em;
+        }
+    }
+
 
 `
 export const Contain = styled.div`
@@ -56,6 +67,22 @@ export const Contain = styled.div`
     
     li:hover{
         border: 4px solid #373737;
+    }
+
+    @media only screen and (min-width: 398px) and (max-width: 800px){
+        h2{
+            display: none;
+        }
+        ul{
+            display: none;
+        }
+        li{
+            display: none;
+        }
+
+        background-image: url(${Menu});
+        background-repeat: no-repeat;
+        background-position-x: calc(98%);
     }
 
 `
